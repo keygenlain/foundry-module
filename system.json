@@ -15,14 +15,14 @@
       "url": "https://your-website.com"
     }
   ],
-  "url": "https://github.com/yourusername/spell-and-steel",
-  "bugs": "https://github.com/yourusername/spell-and-steel/issues",
+  "url": "https://github.com/keygenlain/foundry-module",
+  "bugs": "https://github.com/keygenlain/foundry-module/issues",
   "license": "CCLA-1.0",
   "licenseURL": "https://creativecomrades.org",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
-  "manifest": "https://github.com/yourusername/spell-and-steel/releases/download/v1.0.0/system.json",
-  "download": "https://github.com/yourusername/spell-and-steel/releases/download/v1.0.0/spell-and-steel.zip",
+  "manifest": "https://raw.githubusercontent.com/keygenlain/foundry-module/main/system.json",
+  "download": "https://github.com/keygenlain/foundry-module/archive/refs/heads/main.zip",
   "esmodules": [
     "module/config.mjs",
     "module/dice.mjs",
