@@ -21,6 +21,8 @@
   "licenseURL": "https://creativecomrades.org",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
+  "manifest": "https://raw.githubusercontent.com/keygenlain/foundry-module/main/system.json",
+  "download": "https://github.com/keygenlain/foundry-module/archive/refs/heads/main.zip",
   "esmodules": [
     "module/config.mjs",
     "module/dice.mjs",
