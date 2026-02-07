@@ -1,0 +1,138 @@
+<form class="spell-and-steel npc-sheet actor-sheet" autocomplete="off">
+  <!-- Header -->
+  <div class="actor-header">
+    <img class="actor-image" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+    <div class="actor-name">
+      <input type="text" name="name" value="{{actor.name}}" placeholder="NPC Name" />
+    </div>
+  </div>
+
+  <!-- NPC Info -->
+  <div class="form-group">
+    <label>Tags:</label>
+    <div class="tags">
+      {{#each config.monsterTags as |tag key|}}
+        <label>
+          <input type="checkbox" name="system.tags" value="{{key}}" {{#if (arrayIncludes ../system.tags key)}}checked{{/if}} />
+          {{tag}}
+        </label>
+      {{/each}}
+    </div>
+  </div>
+
+  <!-- Sheet Tabs -->
+  <div class="sheet-tabs" data-group="primary-tabs" data-current="attributes">
+    <a class="item" data-tab="attributes">Stats</a>
+    <a class="item" data-tab="loot">Items</a>
+  </div>
+
+  <!-- Sheet Body -->
+  <div class="sheet-body">
+    <!-- Attributes Tab -->
+    <div class="tab" data-tab="attributes">
+      <h2>Attributes & Stats</h2>
+
+      <!-- Attributes -->
+      <div class="attributes">
+        <div class="attribute">
+          <label>Vigor</label>
+          <div class="value-slash-max">
+            {{#if editable}}
+              <input type="number" class="attribute-input" data-attribute="vigor" value="{{system.attributes.vigor.value}}" min="1" max="10" />
+            {{else}}
+              <span>{{system.attributes.vigor.value}}</span>
+            {{/if}}
+          </div>
+        </div>
+        <div class="attribute">
+          <label>Agility</label>
+          <div class="value-slash-max">
+            {{#if editable}}
+              <input type="number" class="attribute-input" data-attribute="agility" value="{{system.attributes.agility.value}}" min="1" max="10" />
+            {{else}}
+              <span>{{system.attributes.agility.value}}</span>
+            {{/if}}
+          </div>
+        </div>
+        <div class="attribute">
+          <label>Smarts</label>
+          <div class="value-slash-max">
+            {{#if editable}}
+              <input type="number" class="attribute-input" data-attribute="smarts" value="{{system.attributes.smarts.value}}" min="1" max="10" />
+            {{else}}
+              <span>{{system.attributes.smarts.value}}</span>
+            {{/if}}
+          </div>
+        </div>
+        <div class="attribute">
+          <label>Spirit</label>
+          <div class="value-slash-max">
+            {{#if editable}}
+              <input type="number" class="attribute-input" data-attribute="spirit" value="{{system.attributes.spirit.value}}" min="1" max="10" />
+            {{else}}
+              <span>{{system.attributes.spirit.value}}</span>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+
+      <!-- Health & Armor -->
+      <div class="vitals">
+        <div class="vital health">
+          <label>Health</label>
+          <div class="vital-input">
+            {{#if editable}}
+              <input type="number" class="health-input" value="{{system.health.value}}" min="0" max="{{system.health.max}}" />
+            {{else}}
+              <span>{{system.health.value}}</span>
+            {{/if}}
+            / {{system.health.max}}
+          </div>
+        </div>
+        <div class="vital">
+          <label>Armor Value</label>
+          <div class="vital-input">
+            {{#if editable}}
+              <input type="number" class="armor-input" value="{{system.armor}}" min="0" />
+            {{else}}
+              <span>{{system.armor}}</span>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Items Tab -->
+    <div class="tab" data-tab="loot">
+      <h2>Equipment & Items</h2>
+      <div class="item-list">
+        {{#each items as |item|}}
+          <div class="item" data-item-id="{{item.id}}">
+            <span class="item-name">{{item.name}}</span>
+            <div class="item-controls">
+              <button type="button" class="item-edit">Edit</button>
+              <button type="button" class="item-delete">Delete</button>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+      {{#if editable}}
+        <div class="button-group">
+          <button type="button" class="item-create" data-type="weapon">+ Weapon</button>
+          <button type="button" class="item-create" data-type="spell">+ Spell</button>
+          <button type="button" class="item-create" data-type="loot">+ Loot</button>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+
+  <!-- Biography -->
+  <div class="biography-section">
+    <h3>Notes</h3>
+    {{#if editable}}
+      <textarea name="system.biography" rows="5">{{system.biography}}</textarea>
+    {{else}}
+      <div>{{{system.biography}}}</div>
+    {{/if}}
+  </div>
+</form>

@@ -1,0 +1,553 @@
+Spell and Steel 
+A Tabletop 
+Role-Playing Game 
+By Laine Coulter 
+Dedicated to my Friends and Family, without the positive feedback of  whom I would not have released this to the public. 
+In memory of Bella; The greatest cat I could have asked for. 
+Thank you to John Cichowski for sharing his amazing Art for a  relatively low price. 
+Orc and Elf art made in Campaign Cartographer 3+. 
+This work is © 2026 by Laine Coulter  
+Open Gaming Content 
+The mechanics of Spell and Steel (The Focus Engine), including the  Dice Pool system, Exploding Dice rules, Success Thresholds, Focus  Token economy, and MVP system are licensed for public use under the  Creative Comrades License Agreement 1.0 (CCLA 1.0) 
+How to use these Rules 
+You are free to share, remix, and build upon these mechanics in  commercial or personal projects. However, per the terms of the CCLA: 
+You must credit Laine Coulter and link to this work 
+You may not use this work to promote hate speech, bigotry, or  discrimination. Doing so immediately forfeits your right to use this  system. 
+Full terms can be found at creativecomrades.org
+I 
+Table of Contents 
+
+Core Concepts 1 What is a TTRPG? 1 Exploding Dice 1 Success Threshold Guide 1 What is a Success? 1 The Focus System 1 Character Progression 1 
+Character Creation 2 Ancestries 3 Dwarf 3 Ratfolk 4 Human 5 Orc 6 Elf 7 
+Spells 8 Combat 9 Initiative 9 Actions 9 
+ Attack Rolls 9 Dealing Damage 9 Recovery 9 Death 9 
+Gamemaster's Section 10 Awarding Focus Tokens 10 Roleplay Focus 10 Milestone Focus 10 Creating Monsters 10 Optional Rule: MVP Tokens 10 Running Humanoid Monsters 11 Opposed Rolls 11 Status Effects 11 
+Equipment 12 Enchanting 17 Monsters 24 Religion and Gods of Araie 26
+
+II 
+
+Core Concepts 
+What is a TTRPG? 
+Read mousecamp.com/blog/what is-an-rpg for more information on  TTRPGs.  
+The Dice Pool 
+Spell and Steel uses a dice pool  system. A dice pool is a group of  six-sided dice (henceforth referred  to as d6s) which you gather to  attempt an action. Your pool  changes depending on your  relevant skill and attribute levels to  the action you are performing (skill  level 3, attribute score 3 = 6 dice) 
+The gamemaster will determine the  Difficulty of a given action, and  thus what the Success Threshold  (ST) is. 
+If a player does not have any levels  in a relevant skill, roll only with the  relevant attribute score and  subtract 1 from each result. 
+Exploding Dice 
+Exploding Dice are a system in  which players roll another d6 for  each time they roll a 6. If dice  explode more than 6 times in a  single pool, stop exploding. 
+Success Threshold Guide 1 Trivial 
+2 Easy 
+3-4 Standard 
+5 Hard 
+6+ Legendary What is a Success? 
+A success is a roll of 4 or above. The Focus System 
+The Focus System is a system in  which players are rewarded with  “Focus Tokens” by the  
+gamemaster. These allow players to  reroll a dice result that they are  unsatisfied with or add 1 die to a  roll. 
+Character Progression 
+At GM discretion, players can  receive a skill point. Also at GM  discretion, but rarer, players can  receive an Attribute Point. 
+These points can be spent on Skill  and Attribute upgrades  
+respectively.  
+Skill/Attribute Upgrade Table Number Points Needed 1-2 1 
+3-4 2 
+5-6 3
+
+1 
+
+Character Creation 
+Whether you want to play a  Swashbuckling Rogue or a Knight  in Shining Armor, you'll need a  character sheet. This section will  guide you through Character  Creation. 
+Determining Attributes 
+Attributes are the basis of your  character, determining base skill  amounts as well as your health. To  determine your attributes, distribute  10 Attribute Points for Vigor,  Smarts, Agility, and Spirit. Each  attribute starts at 1, and they have a  maximum of 6. The starting points  (Points ensuring you start at 1 in  each attribute) do not count against  your 10 points. 
+Determining Health 
+Health is determined by Vigor × 5. Determining Mana 
+Mana is determined by Spirit × 5. Starting Equipment 
+Each player starts with 250 Silver to  spend on equipment and extra spells  beyond the two free spells. 
+Skills List 
+Vigor Agility Smarts Spirit Large Blades Short Blades Investigation Insight Brawl Long Blades Lore Persuade Athletics Acrobatics Polearms Faith Fortitude Stealth Ranged Arcana 
+
+Determining Skills 
+Blunt Sleight of  Hand 
+Medicine Resolve 
+
+Skills are determined during  
+Character Creation via “skill  
+points”. Each player starts with 10  skill points, and can distribute them  in a skill up to a level of 6 for each  skill. 
+2 
+Ride Survival Perform 
+Intimidate
+Ancestries 
+Ancestries, such as Human, Elf,  Dwarf, etc, provide small bonuses to  attributes or skills. Choose one  ancestry during character creation. 
+Starting Spells 
+Each player may start with two spells  of their choice, provided they meet  the learning requirements. 
+Ancestries 
+Dwarf 
++1 Vigor  
++1 Fortitude  
+Special Ability: Dwarf  Characters are immune to  any form of knockback.
+Dwarves are a proud and ancient folk, said to  have been crafted from the very stone of the  mountains. They live for about 300-400 Years,  and are considered "Mature" at age 65. 
+Known for their stoic demeanors and  unmatched craftmanship, they are highly sought  after both as soldiers and as smiths. 
+While some see them as stubborn or insular for  living in their mountain homes and rarely  leaving; the Dwarves dispute this claim, insisting  that they have enough friends within the  mountains to last them a lifetime. 
+
+3 
+Ratfolk are a simple people who tend not to seek out  
+adventure. It is rare that one is seen outside of their  
+Dens, and thus many Ratfolk Adventurers have  
+achieved a sort of "Celebrity" Status in the outside  
+world. 
+Ratfolk tend to live for about 60 years, and reach  
+maturity around 10. 
+Their dens are Matriarchal, with all rats in a den  
+serving the "Mother Rat" of the den. 
+Ratfolk 
++1 Agility  
++1 Stealth 
+Special Ability: Turn  
+1 Failed Pool into a  
+Success per session.
+4 
+Humans are a short-lived folk who desire power  
+above all else. 
+Humans live for about 90 years, and reach  
+maturity around 20. 
+Human 
+No Attribute Bonus  
++1 To any one skill  
+Special Ability: Gain a  
+temporary +1 boost to a  
+attribute of your choice  
+during combat. Ends after  
+combat is over.
+5 
+It was not long ago that Orcs were treated with  
+disdain by the "civilized" ancestries. They were  
+cast out from society for millenia, and only 50  
+years ago did the Church of the Holy Flame  
+demand to the rulers of Araie that the Orcs be  
+given rights. 
+Now, Orcs are allowed to live in cities, and have  
+integrated into armies. 
+Orcs live for about 20 years longer than humans,  
+though they reach maturity at the same age. Orc 
++1 Vigor  
++1 Brawl  
+Special Ability: Let out a  
+primal roar, invigorating  
+your allies with a +1 boost  
+to vigor for the rest of  
+combat. The roar also scares  
+away enemies.
+6 
+Elves live for about 2000 Years, being the longest  
+lived ancestry. They live in the forests of the east  
+of Araie, and punish harshly any who disturb  
+these forests. 
+They harbor a disdain for Dwarves, due to their  
+industrious nature. 
+Elf 
++1 Smarts  
++1 Ranged  
+Special Ability: Due to your  
+long life, you gain +2 dice on  
+Lore rolls.
+7 
+Spells 
+You may learn an amount of spells  equal to the combined levels of your  relevant skill to the spells and your  spirit attribute added together ×1.5  round up (this means that if you have 2  Arcana, 1 Faith, and 3 Spirit, you may  learn 8 Arcana Spells and 6 Faith  Spells). To learn a spell after character  creation, pay a character who knows  the spell to teach you. 
+You may only learn and cast spells equal  to or below your max spell tier. 
+Relevant Skill Max Spell Tier 1-2 1 
+3-4 2 
+5-6 3
+8 
+
+Combat 
+Combat takes place on a grid; with  each grid square representing 5  feet. 
+Initiative 
+Initiative in combat is determined  by who has the highest smarts and  spirit combined. Ties are resolved  by d6 roll-off. 
+Actions 
+On your turn, you can take: 
+One Movement Action (Move an  amount of feet equal to your  
+agility × 5 + 5) 
+One Major Action (Attack, Cast  Spell) 
+One Minor Action (Open Door,  Speak) 
+Attack Rolls 
+Your dice pool for attack is  
+determined by your level in the  relevant combat skill. The amount  of successes required to hit your  enemy is always 3 unless stated  otherwise. For each roll in your  attack pool over the ST, deal an  9 
+extra hit. 
+Dealing Damage 
+When dealing damage, you deal  your weapon's damage value minus  the enemy's armor value. The  reverse applies to enemies attacking  you. Magic damage ignores armor. 
+All successful hits deal at least 1 Damage.Recovery 
+Outside of combat, you may  recover fully by resting. Resting  takes 8 hours per rest. This  includes recovery of Mana as well as  your Health. 
+Death 
+Once you reach 0 HP, if you are  not tended to (minor action) by  another player or an enemy within  5 combat turns, you will die. Upon  tending, you gain 1 health, so as to  not knock you down  
+again. 
+Gamemaster's Section Awarding Focus Tokens 
+The following are just two methods  of granting Focus Tokens: 
+Roleplay Focus 
+Reward players with Focus Tokens  for performing actions that are  suboptimal but advance the story  in an interesting way and/or are  fitting for their characters. 
+Milestone Focus 
+Grant Focus Tokens to the entire  party for completing story  
+milestones (escaping prison,  catching a spy, etc). 
+
+Creating Monsters 
+Monster sheets are the same as  character sheets; with the following  differences: 
+1. Monsters have more or less  points than players for  
+attributes and skills depending  on their intended power. 
+2. Monsters do not have  
+Ancestries 
+3. There is no Attribute or Skill  cap for monsters 
+4. Monsters can have Tags, which  give them special  
+vulnerabilities. 
+Optional Rule: MVP Tokens 
+MVP Tokens are an optional rule  in which at the end of a session,  Players may vote for their “MVP”  of the party. This MVP then  receives three Focus Tokens. If you  received an MVP Token in a  session, you may not receive one in  the next.
+
+10 
+
+Running Humanoid  
+Monsters 
+One must remember that  
+Humanoid Monsters are rather  intelligent, and as such, have  enough reasoning to know that  taking hostages is a good idea if  they want to live. Perhaps a  Skeleton will run up to a downed  player to stabilize them, only to  take them hostage? There are many  things that you can do with the  knowledge that many monsters are  as smart and capable of reasoning  as humans. 
+Opposed Rolls 
+ If making an Opposed Roll, have  the GM decide what stat the player  rolls and what stat the NPC rolls.  The winner is whoever has more  successes. In case of a tie, whoever  has the higher skill wins. In case  skills are tied, roll a D6. If 4-6, the  player wins. If 1-3, the NPC wins.  Focus tokens may be used to reroll  Opposed Rolls. 
+If the Opposed Roll is Player  Versus Player and both the roll and  skills are tied, roll 1d6. If 1-3, the  defending player wins. If 4-6, the  initiating player wins.  
+Status Effects 
+Status Effects include: Blinded  (Affected character cannot see until  cured), Burning (Take 1 damage  per turn for 3 turns), and Poisoned  (Take 1 damage per turn until  cured)
+
+11 
+
+
+Equipment 
+Worn Equipment grants Damage Reduction based on its Armor Value.  Wielded Equipment provides damage numbers for combat.
+12 
+
+Shortsword 
+2 Damage, Short Blade, 50  Silver 
+A regular shortsword. Nothing  special. 
+Longsword 
+Dagger 
+1 Damage, Short Blade, 25  Silver 
+A dagger! Deals triple damage if  stabbing from the back. 
+Greatsword 
+3 Damage, Long Blade, 100  Silver 
+A Longsword! Nothing really  
+too odd about it. 
+Silver Longsword 
+
+4 Damage, Large Blade, 250 Silver 
+A large claymore. Can attack 3 enemies  at once, provided they are all within 5  feet of you. 
+3 Damage, Long Blade,  1000 Silver 
+A Longsword, but silver! Ignores  AV of Undead. 
+
+Holy Longsword 
+3 Damage, Long Blade,  1000 Silver 
+The weapon of choice for an  Inquisitor. Ignores AV of Void  Enemies.
+13 
+
+Shortbow 
+2 Damage, Ranged, 10  Squares, 50 Silver 
+A Shortbow! 
+Crossbow 
+Longbow 
+3 Damage, Ranged, 15  Squares, 100 Silver 
+A Longbow. 
+
+4 Damage, Ranged, 12  Squares, 200 Silver 
+A Crossbow 
+
+Holy Water Tipped  Crossbow 
+4 Damage, Ranged, 12  Squares, 1000 Silver 
+Ignores AV of Demonic  Enemies. Get it? 
+Sacrificial Dagger 
+1 Damage, Short Blade, 250  Silver, 200 Silver 
+Ignores AV of Holy Enemies, as  well as doing base Dagger effects.
+
+Recovery Potion 
+200 Silver 
+Recovers 10 Health and Mana 
+14 
+
+Pauldrons  1 AV, 50 Silver 
+Helm  
+1 AV, 50 Silver 
+Greaves  
+1 AV, 50 Silver 
+Breastplate  
+2 AV, 100 Silver 
+Gauntlets  
+1 AV, 50 Silver 
+Boots  
+1 AV, 50 Silver
+
+15 
+
+Mace  
+30 Silver, 2 Damage, Blunt  Weapons 
+A standard iron-headed club.  Reliable and easy to wield. 
+Spear  
+War Hammer  
+150 Silver, 3 Damage, Blunt  Weapons 
+On a successful hit with a 6, it  ignores 1 point of the target's  AV. 
+
+40 Silver, 2 Damage,  Polearms, Range 2  Allows the user to attack  enemies up to 2 squares away.
+16 
+Enchanting 
+You may pay 1000 Silver to enhance  
+your Equipment via Enchantment.  
+Equipment can hold 1 Enchantment  
+at a time, and Enchantments include:  
+• Flaming (Sets enemies on fire) 
+• Poison (Poisons Enemies) 
+• Flash (Blinds enemies) 
+• Sharpness (Times 1.5 Damage  
+rounded up) 
+• Hardness (Times 2 AV) 
+• Vitality (Doubles Health) 
+• Magical (Doubles Mana) 
+You can, and are encouraged to, create  
+your own enchantments, provided  
+they are approved by your GM.
+17 
+
+Spell List, Arcana T1 
+Gust  
+3 Mana, ST 2, 6 Range, Arcana,  50 Silver 
+A violent burst of wind pushes one  target (Vigor 4 or less) back 2  squares. 
+Arcane Bolt  
+3 Mana, ST 2, 12 Range, Arcana,  2 Damage, 50 Silver 
+You hurl a bolt of pure arcane  energy at your opponent. It ignites  on impact, burning the enemy. 
+Cinder Snap  
+2 Mana, ST 2, 3 Range, Arcana, 1  Damage, 50 Silver 
+You snap your fingers, igniting your  enemies and nearby objects.  Enemies get burning effect.
+Mirror Image  
+4 Mana, ST 3, Self, Arcana, 50  Silver 
+You create a shimmering duplicate  of yourself. Your ST to be hit  increases by +2 for 2 combat  rounds. 
+Arcane Lock  
+2 Mana, ST 3, Touch, Arcana, 50  Silver 
+You magically seal a door or chest  for 1 hour. It requires a Hard (ST 5)  Sleight of Hand check to pick open. Mage Light  
+1 Mana, ST 1, 6 Range, Arcana,  50 Silver 
+A floating orb of soft light follows  you, illuminating a 6-square radius  for 1 hour. 
+Frost Touch  
+4 Mana, ST 2, Reach 1, Arcana, 2  Damage, 50 Silver 
+Your hand glows with a killing chill.  The target cannot take a Movement  Action on its next turn. 
+Identify 
+5 Mana, ST 3, Touch, Arcana, 50  Silver 
+By focusing your mind, you learn  the magical properties of an object  or the Mana cost of a spell being  cast. 
+
+18 
+
+Spell List, Arcana T2 
+Fireball  
+10 Mana, ST 3, 15 Range,  Arcana, 4 Damage, 100 Silver  You hurl a massive orb of flame. 1  Damage to all adjacent creatures and  4 to target. 
+Chain Lightning 
+10 Mana, ST 3, 12 Range,  Arcana, 3 Damage, 100 Silver You launch a jagged bolt of  
+electricity. If you roll at least one 6,  the bolt jumps to a second target. 
+Phantasmal Killer  
+8 Mana, ST 3, 12 Range, Arcana,  3 Damage, 100 Silver 
+You tap into the target's deepest  fears to create a localized  
+hallucination. The target takes 3  Damage and is Shaken, suffering a -1  penalty to all dice pools next turn.Earthen Grasp  
+8 Mana, ST 3, 10 Range, Arcana,  100 Silver  
+Stone hands erupt from the earth.  The target is Restrained (Movement  reduced to 0) until they spend an  action to succeed on a Vigor check. 
+Invisibility 
+8 Mana, ST 2, Touch, Arcana,  100 Silver  
+You or an ally become invisible for 1  minute. The effect ends early if the  subject attacks or casts a spell. 
+Arcane Shield  
+8 Mana, ST 2, Self, Arcana, 100  Silver  
+A shimmering barrier surrounds  you. Gain +3 AV against the next  two incoming attacks. 
+Misty Step  
+8 Mana, ST 2, 30ft Range,  Arcana, 100 Silver  
+You dissolve into silver mist and  teleport instantly to a location you  can see. Does not trigger  
+opportunity attacks. 
+Haste 
+10 Mana, ST 3, 10 Range,  Arcana, 100 SilverYou accelerate  time for an ally. They gain ×2  Actions on each of their next two  turns. 
+
+19 
+
+Spell List, Arcana T3 
+Disintegrate 
+20 Mana, ST 4, 10 Range,  Arcana, 8 Damage, 250 Silver A thin green ray traces toward the  target. If this kills them, they are  disintegrated. 
+Time Stop 
+20 Mana, ST 4, Self, Arcana, 250  Silver  
+You briefly step outside the flow of  time. Take two full turns  
+immediately while all other  creatures are frozen. 
+Meteor Swarm 
+18 Mana, ST 4, 30 Range,  Arcana, 5 Damage, 250 Silver Blazing orbs of fire plummet to the  ground. Deals 5 Damage to all  creatures and structures in a 20ft  radius.
+Dominate Mind 
+15 Mana, ST 3, 12 Range,  Arcana, 250 Silver  
+You seize control of a creature’s will.  They must follow your verbal  commands for 1 hour unless they  take damage. 
+Wall of Force 
+15 Mana, ST 3, 15 Range,  Arcana, 250 Silver  
+An invisible, indestructible wall up  to 30ft long springs into existence. It  lasts for 5 turns and blocks all  movement and spells. 
+Gate 
+20 Mana, ST 4, 10 Range,  Arcana, 250 Silver  
+You tear open a rift in reality to a  distant location or another plane.  The portal remains open for 1  minute. 
+Antimagic Field 
+18 Mana, ST 4, Self (10ft Aura),  Arcana, 250 Silver  
+An invisible barrier surrounds you.  Within this 10ft aura, spells cannot  be cast and magic items become  mundane. 
+Prismatic Spray 
+18 Mana, ST 4, 15 Range,  Arcana, 250 Silver  
+multi-colored rays flash from your  hand. Roll a d6 for the damage:  1-2: 6 Damage  
+3-4: 12 Damage  
+5-6: 18 Damage 
+
+20 
+
+Spell List, Faith T1 
+Purify 
+3 Mana, ST 2, Touch, Faith, 50 Silver  
+Your touch draws out impurities,  removing one negative status effect  like Poison or Blindness. 
+Guiding Bolt  
+4 Mana, ST 3, 12 Range, Faith, 2  Damage, 50 Silver 
+A flash of divine light strikes the foe.  The next ally to attack this target  adds +1 die to their pool. 
+Banish  
+7 Mana, ST 5, 6 Range, Faith, 50 Silver  
+You force an otherworldly creature  or undead to return to its plane.
+Mending Word  
+3 Mana, ST 2, Touch, Faith, 50 Silver  
+You whisper a brief prayer to knit  flesh and bone, healing a touched  ally for 1d6 Health. 
+Curse 
+4 Mana, ST 3, 10 Range, Faith,  50 Silver  
+You hex an enemy with misfortune.  The target subtracts 1 from all dice  results for 3 rounds. 
+Truth Seeker  
+2 Mana, ST 2, Self, Faith, 50 Silver  
+For 1 minute, your eyes glow with  divine clarity, granting +2 dice to  Insight checks to detect lies. 
+Sanctuary  
+5 Mana, ST 4, Self, Faith, 50 Silver  
+A divine aura protects you. Enemies  must succeed a Spirit check (ST 3)  to target you for 2 rounds. 
+Holy Fervor  
+4 Mana, ST 3, 6 Range, Faith, 50 Silver  
+You instill a divine rush in an ally.  They gain +2 squares of movement  and +1 damage on their next  successful hit. 
+
+21 
+
+Spell List, Faith T2 
+Holy Radiance  
+10 Mana, ST 3, 15ft Aura, Faith,  3 Damage, 100 Silver 
+A burst of sacred light erupts from  you. Deals 3 Damage to all [VOID]  or [UNDEAD] enemies. 
+Greater Heal  
+10 Mana, ST 2, Touch, Faith, 4  Healing, 100 Silver 
+You channel the Flame's warmth  into a wounded soul. Restore 4  Health to an ally. 
+Blessing of Protection  8 Mana, ST 2, 12 Range, Faith,  100 Silver  
+Your god shields an ally. Target gains  +2 AV and immunity to status  ailments for the duration of the  combat.
+Zone of Truth  
+8 Mana, ST 2, 20ft Aura, Faith,  100 Silver  
+The light of your god prevents  deception. No creature within the  aura can speak a deliberate lie. 
+Revivify  
+10 Mana, ST 3, Touch, Faith,  100 Silver  
+You pull a soul back from the  threshold. Restore an ally who died  within the last minute to 1 Health. Spirit Guardians  
+10 Mana, ST 3, Self (10ft Aura),  Faith, 2 Damage, 100 Silver Spectral warriors circle you. Any  enemy starting their turn within the  aura takes 2 Damage. 
+Divine Insight  
+8 Mana, ST 2, Self, Faith, 100  Silver  
+You seek the wisdom of Treyas. The  GM provides a helpful hint  regarding a puzzle or the direction  of an objective. 
+Smite  
+8 Mana, ST 2, Self, Faith, +3  Damage, 100 Silver 
+Your weapon glows with holy heat.  Your next successful melee attack  deals an additional 3 Damage. 
+
+22 
+
+Spell List, Faith T3 
+Divine Intervention  
+20 Mana, ST 4, Global, Faith,  250 Silver  
+You cry out to your god. The GM  decides the exact miracle, which is  always significantly in the party’s  favor. 
+Resurrection  
+20 Mana, ST 4, Touch, Faith,  250 Silver  
+You restore life to a creature who has  been dead for up to 100 years. This  process is taxing and restores them  to full Health. 
+Holy Aura  
+18 Mana, ST 4, 30ft Aura, Faith,  250 Silver  
+A brilliant light protects your group.  You and all allies within 30ft have a  50% chance to ignore any incoming  damage.
+Judgment 
+18 Mana, ST 4, 20 Range, Faith,  6 Damage, 250 Silver  
+Your god strikes down the wicked.  Pillars of light strike up to 4 targets,  dealing 6 Damage each. 
+Prophecy  
+15 Mana, ST 3, Self, Faith, 250 Silver  
+You peer into the flickering flames of  the future. Ask the GM three "Yes"  or "No" questions which must be  answered truthfully. 
+Plague of Locusts  
+18 Mana, ST 4, 30 Range, Faith,  250 Silver  
+A thick swarm of insects covers a  massive area. Enemies are Blinded  and cannot cast spells while inside  the swarm. 
+Supreme Sanctuary  
+18 Mana, ST 4, 50ft Aura, Faith,  250 Silver  
+A zone of absolute peace. Any  creature attempting to attack while  inside must succeed on a Spirit  check or lose their action. 
+Avatar  
+20 Mana, ST 4, Self, Faith, 250 Silver  
+For 3 turns, you become a vessel of  the Gods. Your Spirit is treated as  10, you gain Flight equal to move  speed, and your move speed is  doubled. 
+
+23 
+
+Monsters 
+Scavenger Rat  
+Vigor 1, Agility 3, Smarts 1, Spirit 1,  Brawl 2, Stealth 3  
+Bite: 1 Damage, Brawl. 
+Grave Skeleton  
+Vigor 2, Agility 2, Smarts 1, Spirit 1,  Long Blades 2, Fortitude 2 Rusty  Sword: 3 Damage, Long Blades 
+[UNDEAD] 
+Street Thug  
+Vigor 2, Agility 2, Smarts 2, Spirit 2,  Brawl 3, Intimidate 2, AV 1, Club: 2  Damage, Brawl 
+Forest Sprite  
+Vigor 1, Agility 4, Smarts 3, Spirit 2,  Stealth 4, Arcana 2  
+Cinder Snap 
+If no AV listed, assume Zero.Ironclad Guard  
+Vigor 3, Agility 2, Smarts 2, Spirit 2,  Polearms 3, Fortitude 3, AV 4,  Halberd 
+Wandering Apprentice  
+Vigor 2, Agility 2, Smarts 4, Spirit 3,  Arcana 4, Investigation 2  
+Arcane Bolt, Mage Light 
+Shadow Stalker  
+Vigor 2, Agility 5, Smarts 2, Spirit  2, Short Blades 4, Stealth 5, AV 2,  Dagger 
+Cultist Acolyte 
+Vigor 2, Agility 2, Smarts 2, Spirit 4,  Faith 4, Resolve 3  
+Guiding Bolt 
+[VOID] 
+
+24 
+
+Beast-Man Chieftain  
+Vigor 5, Agility 3, Smarts 2, Spirit 3,  Large Blades 4, Brawl 4, Intimidate  4, AV 2, Steel Greatsword 
+Deep Sea Terror  
+Vigor 6, Agility 2, Smarts 1, Spirit 2,  Brawl 5, Fortitude 4  
+Crushing Tentacle: 5 Damage,  Brawl (Reach 2) 
+[VOID] 
+High Inquisitor  
+Vigor 3, Agility 3, Smarts 3, Spirit 5,  Faith 5, Insight 4, Long Blades 3,  Breastplate, Holy Longsword, Curse 
+[HOLY]
+Arcane Construct  
+Vigor 4, Agility 2, Smarts 1, Spirit 3,  Brawl 4, Fortitude 6, AV 4, Slam: 3  Damage, Brawl 
+[CONSTRUCT] 
+Lich Lord  
+Vigor 3, Agility 3, Smarts 6, Spirit 6,  Arcana 6, Faith 6, Lore 6,  
+Banish, Curse, Arcane Bolt 
+[UNDEAD] 
+Ancient Wyrm  
+Vigor 6, Agility 4, Smarts 5, Spirit 5,  Brawl 6, Intimidate 6, Ranged 5,  AV 10  
+Claws: 5 Damage, Brawl  
+Fire Breath: 4 Damage, Ranged  (Area attack 3x3) 
+Fallen Seraph  
+Vigor 5, Agility 5, Smarts 4, Spirit 6,  Faith 6, Perform 5, Long Blades 5  Unholy Blade: 4 Damage, Long  Blades 
+[VOID] 
+Void Knight  
+Vigor 6, Agility 4, Smarts 4, Spirit  4, Large Blades 6, Fortitude 5,  Stealth 4, AV 7, Void Greatsword:  5 Damage, Large Blades 
+[VOID] 
+
+25 
+Religion and Gods of  Araie 
+Araie has many Gods, but the most  powerful by far are known as the Three Flame-Keepers. The Three  Flame-Keepers are named Armos,  Fredda, and Treyas. 
+Armos is the God of War, cleaving  those who stand in the way of the  Holy Flame. 
+Fredda is the God of Truthfulness,  seeing through even the most poker faced liars. 
+Treyas is the most powerful of the  three, being the God of the Holy  Flame itself. 
+These are the Gods who The  Church of the Holy Flame worship,  but there are also other gods; such as  Urgnash the Orc-Father and  Nibbums the Mother Rat.
+26 
+Spell and Steel Character Sheet 
+Name Religion Age Ancestry 
+
+MVPFoc 
+V 
+A 
+Sp 
+Hlt 
+Mov Mna 
+Skill Level Attribute 
+
+AV Sm 
+Equipment 
+Spellbook 
+Slv 
+
+Feedback Email:  
+mousecamp@proton.me or  scan QR Code
+28 
+A Mousecamp Game Errata 
+mousecamp.com

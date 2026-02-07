@@ -1,0 +1,290 @@
+{
+  "Actor": {
+    "character": {
+      "attributes": {
+        "vigor": {
+          "value": 1,
+          "max": 6
+        },
+        "agility": {
+          "value": 1,
+          "max": 6
+        },
+        "smarts": {
+          "value": 1,
+          "max": 6
+        },
+        "spirit": {
+          "value": 1,
+          "max": 6
+        }
+      },
+      "health": {
+        "value": 5,
+        "max": 5
+      },
+      "mana": {
+        "value": 5,
+        "max": 5
+      },
+      "ancestry": "human",
+      "religion": "",
+      "biography": "",
+      "details": {
+        "age": 0,
+        "deity": "",
+        "alignment": ""
+      },
+      "skills": {
+        "largeBlades": {
+          "label": "Large Blades",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        },
+        "shortBlades": {
+          "label": "Short Blades",
+          "attribute": "agility",
+          "value": 0,
+          "max": 6
+        },
+        "brawl": {
+          "label": "Brawl",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        },
+        "longBlades": {
+          "label": "Long Blades",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        },
+        "blunt": {
+          "label": "Blunt",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        },
+        "polearms": {
+          "label": "Polearms",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        },
+        "ranged": {
+          "label": "Ranged",
+          "attribute": "agility",
+          "value": 0,
+          "max": 6
+        },
+        "athletics": {
+          "label": "Athletics",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        },
+        "acrobatics": {
+          "label": "Acrobatics",
+          "attribute": "agility",
+          "value": 0,
+          "max": 6
+        },
+        "stealth": {
+          "label": "Stealth",
+          "attribute": "agility",
+          "value": 0,
+          "max": 6
+        },
+        "sleightOfHand": {
+          "label": "Sleight of Hand",
+          "attribute": "agility",
+          "value": 0,
+          "max": 6
+        },
+        "ride": {
+          "label": "Ride",
+          "attribute": "agility",
+          "value": 0,
+          "max": 6
+        },
+        "investigation": {
+          "label": "Investigation",
+          "attribute": "smarts",
+          "value": 0,
+          "max": 6
+        },
+        "lore": {
+          "label": "Lore",
+          "attribute": "smarts",
+          "value": 0,
+          "max": 6
+        },
+        "arcana": {
+          "label": "Arcana",
+          "attribute": "smarts",
+          "value": 0,
+          "max": 6
+        },
+        "medicine": {
+          "label": "Medicine",
+          "attribute": "smarts",
+          "value": 0,
+          "max": 6
+        },
+        "survival": {
+          "label": "Survival",
+          "attribute": "smarts",
+          "value": 0,
+          "max": 6
+        },
+        "insight": {
+          "label": "Insight",
+          "attribute": "spirit",
+          "value": 0,
+          "max": 6
+        },
+        "persuade": {
+          "label": "Persuade",
+          "attribute": "spirit",
+          "value": 0,
+          "max": 6
+        },
+        "faith": {
+          "label": "Faith",
+          "attribute": "spirit",
+          "value": 0,
+          "max": 6
+        },
+        "intimidate": {
+          "label": "Intimidate",
+          "attribute": "spirit",
+          "value": 0,
+          "max": 6
+        },
+        "perform": {
+          "label": "Perform",
+          "attribute": "spirit",
+          "value": 0,
+          "max": 6
+        },
+        "resolve": {
+          "label": "Resolve",
+          "attribute": "spirit",
+          "value": 0,
+          "max": 6
+        },
+        "fortitude": {
+          "label": "Fortitude",
+          "attribute": "vigor",
+          "value": 0,
+          "max": 6
+        }
+      },
+      "resources": {
+        "focusTokens": {
+          "value": 0,
+          "max": 10
+        }
+      },
+      "currency": {
+        "silver": 0
+      }
+    },
+    "npc": {
+      "attributes": {
+        "vigor": {
+          "value": 1,
+          "max": 10
+        },
+        "agility": {
+          "value": 1,
+          "max": 10
+        },
+        "smarts": {
+          "value": 1,
+          "max": 10
+        },
+        "spirit": {
+          "value": 1,
+          "max": 10
+        }
+      },
+      "health": {
+        "value": 5,
+        "max": 5
+      },
+      "mana": {
+        "value": 5,
+        "max": 5
+      },
+      "armor": 0,
+      "skills": {},
+      "tags": [],
+      "biography": ""
+    }
+  },
+  "Item": {
+    "weapon": {
+      "quantities": {
+        "damage": 1,
+        "damageType": "physical"
+      },
+      "properties": {
+        "equipped": false
+      },
+      "weight": 0,
+      "price": 0,
+      "rarity": "common",
+      "skillRequired": "brawl",
+      "description": "",
+      "weapon": {
+        "type": "melee",
+        "range": 0
+      }
+    },
+    "armor": {
+      "armor": {
+        "type": "light",
+        "value": 0
+      },
+      "weight": 0,
+      "price": 0,
+      "rarity": "common",
+      "properties": {
+        "equipped": false
+      },
+      "description": ""
+    },
+    "spell": {
+      "spellType": "arcana",
+      "tier": 1,
+      "manaCost": 0,
+      "successThreshold": 1,
+      "range": "touch",
+      "castingTime": "1 action",
+      "duration": "instantaneous",
+      "concentration": false,
+      "description": "",
+      "effects": [],
+      "price": 0
+    },
+    "equipment": {
+      "equipmentType": "misc",
+      "weight": 0,
+      "price": 0,
+      "rarity": "common",
+      "properties": {
+        "equipped": false
+      },
+      "description": ""
+    },
+    "loot": {
+      "weight": 0,
+      "price": 0,
+      "rarity": "common",
+      "quantity": 1,
+      "description": ""
+    }
+  }
+}

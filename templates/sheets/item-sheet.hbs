@@ -1,0 +1,145 @@
+<form class="spell-and-steel item-sheet ${item.type}" autocomplete="off">
+  <!-- Header -->
+  <header class="item-header">
+    <img class="item-image" src="{{item.img}}" data-edit="img" />
+    <h1 class="charname">
+      <input type="text" name="name" value="{{item.name}}" placeholder="Item Name" />
+    </h1>
+  </header>
+
+  <!-- Tabs -->
+  <div class="sheet-tabs" data-group="primary-tabs" data-current="details">
+    <a class="item" data-tab="details">Details</a>
+    <a class="item" data-tab="description">Description</a>
+  </div>
+
+  <!-- Content -->
+  <section class="sheet-body">
+    <!-- Details Tab -->
+    <div class="tab" data-tab="details">
+      {{#if (eq itemType "weapon")}}
+        <h2>Weapon Details</h2>
+        <div class="form-group">
+          <label>Damage</label>
+          <input type="number" name="system.quantities.damage" value="{{system.quantities.damage}}" class="item-input" />
+        </div>
+        <div class="form-group">
+          <label>Skill Required</label>
+          <select name="system.skillRequired" class="select-input">
+            {{#each config.skills as |skill key|}}
+              <option value="{{key}}" {{#if (eq ../system.skillRequired key)}}selected{{/if}}>{{skill.label}}</option>
+            {{/each}}
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Weapon Type</label>
+          <select name="system.weapon.type" class="select-input">
+            <option value="melee" {{#if (eq system.weapon.type "melee")}}selected{{/if}}>Melee</option>
+            <option value="ranged" {{#if (eq system.weapon.type "ranged")}}selected{{/if}}>Ranged</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Range (if ranged)</label>
+          <input type="number" name="system.weapon.range" value="{{system.weapon.range}}" class="item-input" />
+        </div>
+      {{/if}}
+
+      {{#if (eq itemType "armor")}}
+        <h2>Armor Details</h2>
+        <div class="form-group">
+          <label>Armor Value</label>
+          <input type="number" name="system.armor.value" value="{{system.armor.value}}" class="item-input" />
+        </div>
+        <div class="form-group">
+          <label>Armor Type</label>
+          <select name="system.armor.type" class="select-input">
+            <option value="light" {{#if (eq system.armor.type "light")}}selected{{/if}}>Light</option>
+            <option value="medium" {{#if (eq system.armor.type "medium")}}selected{{/if}}>Medium</option>
+            <option value="heavy" {{#if (eq system.armor.type "heavy")}}selected{{/if}}>Heavy</option>
+          </select>
+        </div>
+      {{/if}}
+
+      {{#if (eq itemType "spell")}}
+        <h2>Spell Details</h2>
+        <div class="form-group">
+          <label>School</label>
+          <select name="system.spellType" class="select-input">
+            <option value="arcana" {{#if (eq system.spellType "arcana")}}selected{{/if}}>Arcana</option>
+            <option value="faith" {{#if (eq system.spellType "faith")}}selected{{/if}}>Faith</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tier</label>
+          <select name="system.tier" class="select-input">
+            <option value="1" {{#if (eq system.tier 1)}}selected{{/if}}>Tier 1</option>
+            <option value="2" {{#if (eq system.tier 2)}}selected{{/if}}>Tier 2</option>
+            <option value="3" {{#if (eq system.tier 3)}}selected{{/if}}>Tier 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Mana Cost</label>
+          <input type="number" name="system.manaCost" value="{{system.manaCost}}" class="item-input" min="0" />
+        </div>
+        <div class="form-group">
+          <label>Success Threshold</label>
+          <input type="number" name="system.successThreshold" value="{{system.successThreshold}}" class="item-input" min="1" max="6" />
+        </div>
+        <div class="form-group">
+          <label>Range</label>
+          <input type="text" name="system.range" value="{{system.range}}" class="item-input" placeholder="e.g., Touch, 12 Range, Self" />
+        </div>
+        <div class="form-group">
+          <label>Damage (if applicable)</label>
+          <input type="number" name="system.quantities.damage" value="{{system.quantities.damage}}" class="item-input" min="0" />
+        </div>
+      {{/if}}
+
+      {{#if (eq itemType "equipment")}}
+        <h2>Equipment Details</h2>
+        <div class="form-group">
+          <label>Equipment Type</label>
+          <select name="system.equipmentType" class="select-input">
+            <option value="misc" {{#if (eq system.equipmentType "misc")}}selected{{/if}}>Miscellaneous</option>
+            <option value="shield" {{#if (eq system.equipmentType "shield")}}selected{{/if}}>Shield</option>
+            <option value="accessory" {{#if (eq system.equipmentType "accessory")}}selected{{/if}}>Accessory</option>
+            <option value="trinket" {{#if (eq system.equipmentType "trinket")}}selected{{/if}}>Trinket</option>
+          </select>
+        </div>
+      {{/if}}
+
+      {{#if (eq itemType "loot")}}
+        <h2>Loot Details</h2>
+        <div class="form-group">
+          <label>Quantity</label>
+          <input type="number" name="system.quantity" value="{{system.quantity}}" class="item-input" min="1" />
+        </div>
+        <div class="form-group">
+          <label>Weight (per item)</label>
+          <input type="number" name="system.weight" value="{{system.weight}}" class="item-input" min="0" step="0.1" />
+        </div>
+      {{/if}}
+
+      <!-- Universal Fields -->
+      <div class="form-group">
+        <label>Price (Silver)</label>
+        <input type="number" name="system.price" value="{{system.price}}" class="item-input" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Rarity</label>
+        <select name="system.rarity" class="select-input">
+          <option value="common" {{#if (eq system.rarity "common")}}selected{{/if}}>Common</option>
+          <option value="uncommon" {{#if (eq system.rarity "uncommon")}}selected{{/if}}>Uncommon</option>
+          <option value="rare" {{#if (eq system.rarity "rare")}}selected{{/if}}>Rare</option>
+          <option value="legendary" {{#if (eq system.rarity "legendary")}}selected{{/if}}>Legendary</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Description Tab -->
+    <div class="tab" data-tab="description">
+      <h2>Description</h2>
+      <textarea name="system.description" rows="10" class="item-input">{{{system.description}}}</textarea>
+    </div>
+  </section>
+</form>

@@ -1,0 +1,96 @@
+{
+  "id": "spell-and-steel",
+  "title": "Spell and Steel",
+  "description": "A Foundry VTT system for Spell and Steel - A Tabletop Role-Playing Game by Laine Coulter",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12.0",
+    "verified": "12.305",
+    "maximum": "12"
+  },
+  "author": "Your Name",
+  "authors": [
+    {
+      "name": "Your Name",
+      "url": "https://your-website.com"
+    }
+  ],
+  "url": "https://github.com/yourusername/spell-and-steel",
+  "bugs": "https://github.com/yourusername/spell-and-steel/issues",
+  "license": "CCLA-1.0",
+  "licenseURL": "https://creativecomrades.org",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "manifest": "https://github.com/yourusername/spell-and-steel/releases/download/v1.0.0/system.json",
+  "download": "https://github.com/yourusername/spell-and-steel/releases/download/v1.0.0/spell-and-steel.zip",
+  "esmodules": [
+    "module/config.mjs",
+    "module/dice.mjs",
+    "module/system.mjs"
+  ],
+  "styles": [
+    "css/spell-and-steel.css"
+  ],
+  "scripts": [],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/character-sheet.hbs"
+      },
+      "npc": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/npc-sheet.hbs"
+      }
+    },
+    "Item": {
+      "weapon": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/weapon-sheet.hbs"
+      },
+      "armor": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/armor-sheet.hbs"
+      },
+      "spell": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/spell-sheet.hbs"
+      },
+      "equipment": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/equipment-sheet.hbs"
+      },
+      "loot": {
+        "htmlForm": "systems/spell-and-steel/templates/sheets/loot-sheet.hbs"
+      }
+    }
+  },
+  "Actor": {
+    "types": ["character", "npc"],
+    "defaults": {
+      "character": {
+        "img": "systems/spell-and-steel/assets/character.svg"
+      },
+      "npc": {
+        "img": "systems/spell-and-steel/assets/npc.svg"
+      }
+    }
+  },
+  "Item": {
+    "types": ["weapon", "armor", "spell", "equipment", "loot"],
+    "defaults": {
+      "weapon": {
+        "img": "systems/spell-and-steel/assets/items/weapon.svg"
+      },
+      "spell": {
+        "img": "systems/spell-and-steel/assets/items/spell.svg"
+      },
+      "armor": {
+        "img": "systems/spell-and-steel/assets/items/armor.svg"
+      },
+      "equipment": {
+        "img": "systems/spell-and-steel/assets/items/equipment.svg"
+      },
+      "loot": {
+        "img": "systems/spell-and-steel/assets/items/loot.svg"
+      }
+    }
+  },
+  "ui": {
+    "actors": "systems/spell-and-steel/templates/sheets/character-sheet.hbs"
+  }
+}

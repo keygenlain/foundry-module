@@ -1,0 +1,308 @@
+<div class="character-wizard">
+  <!-- Progress Bar -->
+  <div class="wizard-progress">
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: {{wizardProgress}}%"></div>
+    </div>
+    <p class="progress-text">Step {{step}} of 5</p>
+  </div>
+
+  <!-- Step Title & Description -->
+  <div class="wizard-header">
+    <h2>{{stepTitles.[step]}}</h2>
+    <p class="step-description">{{stepDescriptions.[step]}}</p>
+  </div>
+
+  <!-- Form Content -->
+  <form class="wizard-content">
+    <!-- Step 0: Basic Information -->
+    {{#if (eq step 0)}}
+      <fieldset class="wizard-step">
+        <div class="form-group">
+          <label for="character-name">Character Name</label>
+          <input 
+            type="text" 
+            id="character-name" 
+            name="character-name" 
+            value="{{character.name}}"
+            placeholder="Enter your character's name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="character-ancestry">Ancestry</label>
+          <select id="character-ancestry" name="character-ancestry" required>
+            {{#each config.ancestries as |ancestry key|}}
+              <option value="{{key}}" {{#if (eq ../character.ancestry key)}}selected{{/if}}>
+                {{ancestry.label}}
+              </option>
+            {{/each}}
+          </select>
+        </div>
+
+        <!-- Ancestry Description -->
+        {{#each config.ancestries as |ancestry key|}}
+          {{#if (eq ../character.ancestry key)}}
+            <div class="ancestry-description">
+              <h3>{{ancestry.label}}</h3>
+              <p>{{ancestry.description}}</p>
+              {{#if ancestry.attributes}}
+                <div class="ancestry-bonuses">
+                  <p><strong>Bonuses:</strong></p>
+                  <ul>
+                    {{#each ancestry.attributes as |value attrKey|}}
+                      <li>+{{value}} {{attrKey}}</li>
+                    {{/each}}
+                  </ul>
+                </div>
+              {{/if}}
+            </div>
+          {{/if}}
+        {{/each}}
+      </fieldset>
+    {{/if}}
+
+    <!-- Step 1: Attributes -->
+    {{#if (eq step 1)}}
+      <fieldset class="wizard-step">
+        <div class="attributes-container">
+          {{#each (toArray config.attributes) as |attr attrKey|}}
+            <div class="attribute-box">
+              <label>{{attr.label}}</label>
+              <div class="attribute-display">
+                <button type="button" class="attribute-adjuster btn-small" data-attribute="{{attrKey}}" data-direction="dec">−</button>
+                <span class="attribute-value">{{character.attributes.[attrKey]}}</span>
+                <button type="button" class="attribute-adjuster btn-small" data-attribute="{{attrKey}}" data-direction="inc">+</button>
+              </div>
+              <div class="attribute-note">Max: 6</div>
+            </div>
+          {{/each}}
+        </div>
+
+        <div class="points-remaining">
+          <p><strong>Attribute Points Remaining: {{remainingAttributePoints}}/10</strong></p>
+          <div class="attribute-tip">
+            <p>💡 Tip: Choose attributes that match your character concept. Each starts at 1.</p>
+          </div>
+        </div>
+      </fieldset>
+    {{/if}}
+
+    <!-- Step 2: Skills -->
+    {{#if (eq step 2)}}
+      <fieldset class="wizard-step skills-step">
+        <div class="skills-container">
+          {{#each (toArray config.skills) as |skill skillKey|}}
+            <div class="skill-input-group">
+              <label>
+                {{skill.label}}
+                <span class="skill-attribute">({{config.attributes.[skill.attribute].label}})</span>
+              </label>
+              <input 
+                type="number" 
+                class="skill-input"
+                data-skill="{{skillKey}}"
+                value="{{character.skills.[skillKey]}}"
+                min="0"
+                max="6"
+              />
+            </div>
+          {{/each}}
+        </div>
+
+        <div class="points-remaining">
+          <p><strong>Skill Points Remaining: {{remainingSkillPoints}}/10</strong></p>
+          <div class="skill-tip">
+            <p>💡 Tip: Focus on skills that define your character. Your attribute level will add dice to rolls!</p>
+          </div>
+        </div>
+      </fieldset>
+    {{/if}}
+
+    <!-- Step 3: Equipment & Spells -->
+    {{#if (eq step 3)}}
+      <fieldset class="wizard-step equipment-step">
+        <h3>Choose Starting Equipment (250 Silver)</h3>
+        <div class="equipment-list">
+          <div class="equipment-category">
+            <h4>Weapons</h4>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Shortsword" data-price="50" />
+              <span>Shortsword</span> <span class="price">(50 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Dagger" data-price="25" />
+              <span>Dagger</span> <span class="price">(25 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Longsword" data-price="100" />
+              <span>Longsword</span> <span class="price">(100 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Greatsword" data-price="250" />
+              <span>Greatsword</span> <span class="price">(250 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Shortbow" data-price="50" />
+              <span>Shortbow</span> <span class="price">(50 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Longbow" data-price="100" />
+              <span>Longbow</span> <span class="price">(100 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Mace" data-price="30" />
+              <span>Mace</span> <span class="price">(30 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="weapon" data-name="Spear" data-price="40" />
+              <span>Spear</span> <span class="price">(40 Silver)</span>
+            </label>
+          </div>
+
+          <div class="equipment-category">
+            <h4>Armor</h4>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="armor" data-name="Helm" data-price="50" />
+              <span>Helm (AV 1)</span> <span class="price">(50 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="armor" data-name="Breastplate" data-price="100" />
+              <span>Breastplate (AV 2)</span> <span class="price">(100 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="armor" data-name="Pauldrons" data-price="50" />
+              <span>Pauldrons (AV 1)</span> <span class="price">(50 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="armor" data-name="Greaves" data-price="50" />
+              <span>Greaves (AV 1)</span> <span class="price">(50 Silver)</span>
+            </label>
+            <label class="equipment-checkbox">
+              <input type="checkbox" data-type="armor" data-name="Gauntlets" data-price="50" />
+              <span>Gauntlets (AV 1)</span> <span class="price">(50 Silver)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="silver-spent">
+          <p><strong>Silver Spent: {{(250 - character.currency.silver)}} / 250</strong></p>
+          <p>Remaining: {{character.currency.silver}} Silver</p>
+        </div>
+
+        <h3>Choose 2 Starting Spells</h3>
+        <div class="spells-list">
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Arcane Bolt" />
+            <span>Arcane Bolt</span> (Arcana T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Mage Light" />
+            <span>Mage Light</span> (Arcana T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Gust" />
+            <span>Gust</span> (Arcana T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Mirror Image" />
+            <span>Mirror Image</span> (Arcana T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Frost Touch" />
+            <span>Frost Touch</span> (Arcana T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Cinder Snap" />
+            <span>Cinder Snap</span> (Arcana T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Purify" />
+            <span>Purify</span> (Faith T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Mending Word" />
+            <span>Mending Word</span> (Faith T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Guiding Bolt" />
+            <span>Guiding Bolt</span> (Faith T1)
+          </label>
+          <label class="spell-checkbox">
+            <input type="checkbox" data-spell="Curse" />
+            <span>Curse</span> (Faith T1)
+          </label>
+        </div>
+
+        <div class="spells-selected">
+          <p><strong>Spells Selected: {{character.spells.length}} / 2</strong></p>
+        </div>
+      </fieldset>
+    {{/if}}
+
+    <!-- Step 4: Review & Create -->
+    {{#if (eq step 4)}}
+      <fieldset class="wizard-step review-step">
+        <div class="review-section">
+          <h3>{{character.name}}</h3>
+          <p><strong>Ancestry:</strong> {{config.ancestries.[character.ancestry].label}}</p>
+
+          <h4>Attributes</h4>
+          <div class="review-attributes">
+            {{#each (toArray config.attributes) as |attr attrKey|}}
+              <p><strong>{{attr.label}}:</strong> {{character.attributes.[attrKey]}}</p>
+            {{/each}}
+          </div>
+
+          <h4>Health & Mana</h4>
+          <p><strong>Health:</strong> {{(character.attributes.vigor)}} × 5 = {{(character.attributes.vigor)}}0</p>
+          <p><strong>Mana:</strong> {{(character.attributes.spirit)}} × 5 = {{(character.attributes.spirit)}}0</p>
+
+          <h4>Top Skills</h4>
+          <div class="review-skills">
+            {{#each (toArray character.skills) as |skill skillKey|}}
+              {{#if (gt skill 0)}}
+                <p><strong>{{config.skills.[skillKey].label}}:</strong> {{skill}}</p>
+              {{/if}}
+            {{/each}}
+          </div>
+
+          <h4>Equipment</h4>
+          {{#if character.equipment}}
+            <ul>
+              {{#each character.equipment as |item|}}
+                <li>{{item.name}}</li>
+              {{/each}}
+            </ul>
+            <p><strong>Remaining Silver:</strong> {{character.currency.silver}}</p>
+          {{else}}
+            <p><em>No equipment selected</em></p>
+          {{/if}}
+
+          <h4>Starting Spells</h4>
+          {{#if character.spells}}
+            <ul>
+              {{#each character.spells as |spell|}}
+                <li>{{spell}}</li>
+              {{/each}}
+            </ul>
+          {{else}}
+            <p><em>No spells selected</em></p>
+          {{/if}}
+        </div>
+
+        <div class="wizard-tip">
+          <p>✅ Ready to create your character? Click the Create button below!</p>
+        </div>
+      </fieldset>
+    {{/if}}
+  </form>
+
+  <!-- Navigation Buttons -->
+  <div class="wizard-controls">
+    <button type="button" class="btn-prev" {{#if isFirstStep}}disabled{{/if}}>← Previous</button>
+    <button type="button" class="btn-next" {{#if isLastStep}}style="display:none;"{{/if}}>Next →</button>
+    <button type="button" class="btn-create" {{#if (not isLastStep)}}style="display:none;"{{/if}}>Create Character</button>
+  </div>
+</div>
